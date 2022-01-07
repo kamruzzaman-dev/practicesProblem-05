@@ -2,3 +2,28 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.nav{
+    display: flex;
+    width: 80%;
+    height: 20px;
+    border: 1px solid black;
+}
+.left-nav{
+    float: left;
+}
+.right-nav{
+    float: right;
+    display: flex;
+}
+
+.right-nav div{
+    display: inline-block;
+}
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
